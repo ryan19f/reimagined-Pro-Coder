@@ -1,0 +1,5 @@
+my_str = str(input("enter text"))
+my_str = my_str.casefold()
+rev_str = reversed(my_str)
+rst=list(rev_str)
+print(rst)  

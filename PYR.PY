@@ -1,0 +1,5 @@
+print("12345")
+print("1234")
+print("123")
+print("12")
+print("1")
