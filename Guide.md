@@ -76,6 +76,9 @@ if turns == 0:
 Beginner: Customize words/messages
 Intermediate: Add scoring or input validation
 Advanced: ASCII art, difficulty levels, random words
+
+--- 
+
 ## 2. 🧠 Mad Libs Game
 
 ### 🎯 Objective
@@ -124,6 +127,9 @@ mainloop()
 Beginner: Add more word inputs
 Intermediate: Use f-strings; add Reset button
 Advanced: Organize with Frames; input validation
+
+---
+
 ## 3. ❌⭕ Tic-Tac-Toe Game
 
 ### 🎯 Objective
