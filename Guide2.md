@@ -1,3 +1,12 @@
+# 🐍 Consolidated Python Game Guide(DCSI 2025-Jun 19) 🎮 ~ Ryan Fernandes
+
+This document combines a teaching guide for three beginner-friendly Python games:
+- Tic-Tac-Toe Game
+
+Each section includes annotated code, concepts, and bonus challenges.
+
+---
+
 ## 1. ❌⭕ Tic-Tac-Toe Game
 
 ### 🎯 Objective
