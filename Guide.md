@@ -1,4 +1,4 @@
-# 🐍 Consolidated Python Game Guide 🎮 ~ Ryan Fernandes
+# 🐍 Consolidated Python Game Guide(DCSI 2025-Jun 18) 🎮 ~ Ryan Fernandes
 
 This document combines a teaching guide for three beginner-friendly Python games:
 - Hangman
@@ -37,7 +37,7 @@ time.sleep(0.5)
 ```
 ### 🔐 Set the Secret Word
 ```python
-word = "springdales"
+word = "Danger"
 guesses = ''
 turns = 10
 ```
@@ -168,7 +168,8 @@ def can_win(brd, player_char, move):
     ]
     return any(all(brd[i] == player_char for i in combo) for combo in winners)
 ```
-🤖 Computer Move
+### 🤖 Computer Move
+```python
 def computer_move():
     for i in range(1, 10):
         if make_move(board, computer, i, True)[1]:
@@ -179,7 +180,9 @@ def computer_move():
     for mv in [1,7,3,9,5,2,4,6,8]:
         if can_move(board, computer, mv):
             return make_move(board, computer, mv)
-🕹️ Main Game Loop
+```
+### 🕹️ Main Game Loop
+```python
 player, computer = select_char()
 print(f"Player is [{player}] and computer is [{computer}]")
 
@@ -201,11 +204,12 @@ while board.count('X') + board.count('O') != 9:
     elif computer_move()[1]:
         print("=== You lose! ===")
         break
-💡 Bonus Challenges
-Beginner: Use emojis for pieces
+```
+### 💡 Bonus Challenges
+Beginner: Use emojis for pieces 
 Intermediate: Add scoreboard, replay
 Advanced: GUI version, unbeatable AI (minimax)
-📌 Summary
+## 📌 Summary
 
 Game	Concepts Covered
 Hangman	Strings, loops, logic, input/output
