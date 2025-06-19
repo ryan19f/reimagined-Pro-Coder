@@ -2,6 +2,7 @@
 
 This document combines a teaching guide for three beginner-friendly Python games:
 - Tic-Tac-Toe Game
+- Pong Game
 
 Each section includes annotated code, concepts, and bonus challenges.
 
@@ -10,9 +11,9 @@ Each section includes annotated code, concepts, and bonus challenges.
 ## 1. ❌⭕ Tic-Tac-Toe Game
 
 ### 🎯 Objective
-Build board using a list
-Create player/computer logic
-Implement win and draw detection
+- Build board using a list
+- Create player/computer logic
+- Implement win and draw detection
 ### 🧩 Setup and Board Representation
 ```python
 import random
@@ -89,6 +90,33 @@ while board.count('X') + board.count('O') != 9:
         break
 ```
 ### 💡 Bonus Challenges
-Beginner: Use emojis for pieces 
-Intermediate: Add scoreboard, replay
-Advanced: GUI version, unbeatable AI (minimax)
+- Beginner: Use emojis for pieces
+- Intermediate: Add scoreboard, replay
+- Advanced: GUI version, unbeatable AI (minimax)
+
+## 2. 🏓 Pong Game
+
+### 🎯 Objective
+- Build a simple Pong game using Python Turtle.
+- Create a game window with two paddles and a ball.
+- Control paddles with keyboard input (W/S and ↑/↓).
+- Move the ball with basic physics and bounce logic.
+- Detect collisions with walls and paddles.
+- Keep and display player scores.
+- Reset the ball on scoring.
+- Maintain smooth real-time gameplay.
+
+### 🐢 Using Turtle Module
+```python
+import turtle
+```
+### ⎚ Setting up the Screen
+```python
+win = turtle.Screen()
+win.title("Pong game by Ryan Fernandes")
+win.bgcolor("white")
+win.setup(width=800, height=600)
+win.tracer(0)
+```
+### 🏓 Creating Paddle A & Paddle B
+```python
