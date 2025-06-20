@@ -3,7 +3,7 @@
 import turtle
 import winsound
 win = turtle.Screen()
-win.title("pong game by Gopalkrishna")
+win.title("pong game by Ryan Fernandes")
 win.bgcolor("white")
 win.setup(width=800, height=600)
 win.tracer(0)
